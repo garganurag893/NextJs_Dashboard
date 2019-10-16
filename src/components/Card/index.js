@@ -17,7 +17,7 @@ const Card = () => {
         damping: 40
       }}
       whileTap={{
-        scale: 0.8,
+        scale: 0.7,
         borderRadius: "100%"
       }}
       whileHover={{ scale: 1.1 }}
