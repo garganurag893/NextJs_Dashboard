@@ -1,0 +1,47 @@
+.mainContainer {
+    display: flex;
+    flex: 1;
+    padding-top: 100px;
+    align-self: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardsContainer {
+    display: flex;
+    flex: 7;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.headingContainer {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headingText {
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+}
+
+.headingDescriptionText {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1em;
+    text-align: center;
+}
+
+
+h1,
+p {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
